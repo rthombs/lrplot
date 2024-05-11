@@ -1,0 +1,5 @@
+v 3
+d lrplot. A Stata command to Plot effects after estimating an autoregressive distributed lag (ARDL) model.
+d Ryan P. Thombs, Boston University.
+f lrplot.ado
+f lrplot.sthlp
