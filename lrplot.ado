@@ -171,7 +171,7 @@ if "`seed'" != "" {
     }
 
 
-qui drawnorm `iv', means(`b') cov(`V') n(`sims')
+qui drawnorm `iv', means(`b') cov(`V') n(`sims') `seed'
 
 
 
@@ -281,4 +281,5 @@ return matrix table t
 
 
 end 
+
 
